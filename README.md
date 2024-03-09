@@ -9,14 +9,19 @@ This model will predict if a student will dropout or not
 To use this project, clone it to your local machine and then run the following command:
 
 MAC os:
+
 step 1 : python3 -m venv .venv
+
 step 2 : . .venv/bin/activate
 
 Windows:
+
 step 1 : py -3 -m venv .venv
+
 step 2 : .venv\Scripts\activate
 
 common:
+
 step 3 : pip install -r requirements.txt
 
 step 4: run model.py  -> creates dropout.pkl
