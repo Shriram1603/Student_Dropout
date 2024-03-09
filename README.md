@@ -24,7 +24,7 @@ common:
 
 step 3 : pip install -r requirements.txt
 
-step 4: run model.py  -> creates dropout.pkl
+step 4: run model.py file seperately  -> creates dropout.pkl
 
 step 5:run flask --app app run
 
