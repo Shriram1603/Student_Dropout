@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropout Prediction Form</title>
+</head>
+<body>
+    <h2>Dropout Prediction Form</h2>
+    <form action="/predict" method="post">
+        <label for="father_occupation">Father Occupation:</label>
+        <select id="father_occupation" name="father_occupation">
+            <option value="0">Unknown</option>
+            <option value="1">Self-employed</option>
+            <option value="2">Daily wages</option>
+            <option value="3">Private</option>
+            <option value="4">Government</option>
+        </select><br><br>
+        
+        <label for="father_education">Father Education:</label>
+        <select id="father_education" name="father_education">
+            <option value="0">Unknown</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <!-- Add more options as needed -->
+        </select><br><br>
+        
+        <label for="mother_occupation">Mother Occupation:</label>
+        <select id="mother_occupation" name="mother_occupation">
+            <option value="0">Unknown</option>
+            <option value="1">Un-employed</option>
+            <option value="2">Daily wages</option>
+            <option value="3">Private</option>
+            <option value="4">Self-employed</option>
+        </select><br><br>
+        
+        <label for="mother_education">Mother Education:</label>
+        <select id="mother_education" name="mother_education">
+            <option value="0">Unknown</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <!-- Add more options as needed -->
+        </select><br><br>
+        
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="0">Unknown</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+        </select><br><br>
+        
+        <label for="religion">Religion:</label>
+        <select id="religion" name="religion">
+            <option value="0">Hindu</option>
+            <option value="1">Muslim</option>
+            <option value="2">Christian</option>
+        </select><br><br>
+        
+        <label for="medium_of_instruction">Medium of Instruction:</label>
+        <select id="medium_of_instruction" name="medium_of_instruction">
+            <option value="0">Unknown</option>
+            <option value="2">Tamil</option>
+            <option value="1">English</option>
+            <option value="3">Telugu</option>
+            <!-- Add more options as needed -->
+        </select><br><br>
+        
+        <label for="community">Community:</label>
+        <select id="community" name="community">
+            <option value="0">BC-Muslim</option>
+            <option value="1">BC-Others</option>
+            <option value="2">SC-Others</option>
+            <option value="3">MBC</option>
+            <option value="4">SC-Arunthathiyar</option>
+            <option value="5">OC</option>
+        </select><br><br>
+        
+        <label for="disability_group">Disability Group Name:</label>
+        <select id="disability_group" name="disability_group">
+            <option value="0">Not Applicable</option>
+            <option value="1">Autism</option>
+            <option value="2">Intellectual Disability</option>
+            <option value="3">Specific Learning disability</option>
+            <option value="4">Cerebral Palsy</option>
+            <option value="5">Multiple disability</option>
+            <option value="6">Locomotor Impairment/Handicap</option>
+        </select><br><br>
+        
+        <label for="attendance">Attendance:</label>
+        <select id="attendance" name="attendance">
+            <option value="0">Regular</option>
+            <option value="1">Not Regular</option>
+        </select><br><br>
+        
+        <label for="long_absentees">Long Absentees Above 15days(Yes/no):</label>
+        <select id="long_absentees" name="long_absentees">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select><br><br>
+        
+        <label for="single_parent">Single Parent:</label>
+        <select id="single_parent" name="single_parent">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select><br><br>
+        
+        <label for="smoker">Smoker:</label>
+        <select id="smoker" name="smoker">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select><br><br>
+        
+        <label for="conduct">Conduct:</label>
+        <select id="conduct" name="conduct">
+            <option value="0">Bad</option>
+            <option value="1">Good</option>
+            <option value="2">Very Good</option>
+        </select><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
